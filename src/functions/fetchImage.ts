@@ -3,7 +3,7 @@ import { Images } from './database';
 
 export default async function fetchImage(override: boolean) {
     let urlcache = null;
-    let tag = "solo";
+    let tag = "";
 
     if (override == true) tag = "";
 
